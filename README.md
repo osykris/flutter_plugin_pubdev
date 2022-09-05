@@ -1,16 +1,17 @@
 # flutter_plugin_pubdev
 
-A new Flutter project.
+## Hasil Praktikum
+![image](https://user-images.githubusercontent.com/64391578/188362324-6be4659e-f0c2-4878-bba2-5469f77fb3f0.png)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Jelaskan maksud dari langkah 2 pada praktikum tersebut!
+Jawab: menambahkan plugin auto_size_text ke dalam project yang telah dibuat kemudian akan tampil nama plugin beserta versinya di file pubspec.yaml pada bagian dependencies.
+Jelaskan maksud dari langkah 5 pada praktikum tersebut!
+Jawab: menambahkan konstruktor berupa text dimana nantinya ketika memanggil class RedTextWidget() maka kita harus menambahkan parameter text saat memanggilnya.
+Pada langkah 6 terdapat dua widget yang ditambahkan, jelaskan fungsi dan perbedaannya!
+Jawab: pada widget bagian atas menggunakan package AutoSizeText kemudian memanggil class RedTextWidget() sehingga text menjadi rapi sedangkan pada widget bagian bawah tidak menggunakan package sehingga terlihat kurang rapi.
+Jelaskan maksud dari tiap parameter yang ada di dalam plugin auto_size_text berdasarkan tautan pada dokumentasi ini !
+Jawab : 
+text: menampung text yang akan ditampilkan
+maxLines: untuk nilai maksimal baris yang ditampilkan
+overflow: mengatur tampilan text untuk tipe overflow yang digunakan
+style: memberikan styling pada widget
